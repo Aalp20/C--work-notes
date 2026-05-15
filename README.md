@@ -11,7 +11,9 @@
 ---
 
 ## 📖 Hakkında (About)
-Bu repo, Kocaeli Üniversitesi Yazılım Mühendisliği eğitimim süresince ve kişisel gelişimimde C# programlama dili üzerine aldığım teknik notları, uygulama örneklerini ve best-practice yaklaşımları içermektedir. Sadece kod değil, mantıksal mimariyi de belgelemeyi amaçlar.
+Bu repo, Kocaeli Üniversitesi Yazılım Mühendisliği eğitimim süresince ve kişisel gelişimimde C# programlama dili üzerine aldığım teknik notları, uygulama örneklerini ve best-practice yaklaşımları içermektedir. Sadece kod değil, mantıksal mimariyi de belgelemeyi amaçlar. 
+
+This repository contains the technical notes, sample implementations, and best-practice approaches I developed in C# programming during my Software Engineering studies at Kocaeli University and throughout my personal professional growth. It aims to document not only the code but also its logical architecture.
 
 ---
 
@@ -19,10 +21,10 @@ Bu repo, Kocaeli Üniversitesi Yazılım Mühendisliği eğitimim süresince ve 
 
 | Area | Technologies & Concepts |
 | :--- | :--- |
-| **Languages** | `C# (Latest)`, `T-SQL` |
+| **Languages** | `C# (Latest)` |
 | **Frameworks** | `.NET 8.0`, `Entity Framework Core` |
-| **Techniques** | `LINQ`, `Asynchronous Programming`, `Reflection` |
-| **Patterns** | `Repository Pattern`, `Dependency Injection`, `SOLID` |
+| **Techniques** | `LINQ`, `Reflection` |
+| **Patterns** | `Repository Pattern`, `Dependency Injection` |
 | **Dev Tools** | `Visual Studio 2022`, `SQL Server Management Studio`, `Git` |
 
 ---
