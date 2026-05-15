@@ -1,79 +1,62 @@
 <div align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="60" height="60" />
+  <h1>C# Mastery & Engineering Notes</h1>
+  <p><i>A structured journey through C# development, from core logic to advanced system architecture.</i></p>
 
-# 🚀 C# Development Journey
-### *Software Engineering Notes & Practice Projects*
-
-[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
-[![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
-[![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-
----
-
-<p align="left">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJic2R6M2R6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6ZzR6JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKSjPKYJ4A2D400/giphy.gif" width="100%" height="150" style="object-fit: cover; border-radius: 10px;" />
-</p>
-
+  [![GitHub Stars](https://img.shields.io/github/stars/Aalp20/C--work-notes?style=for-the-badge&color=gold)](https://github.com/Aalp20/C--work-notes/stargazers)
+  [![License](https://img.shields.io/github/license/Aalp20/C--work-notes?style=for-the-badge&color=blue)](https://github.com/Aalp20/C--work-notes/blob/main/LICENSE)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-informational?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/alper-nafiz-alp/)
 </div>
 
-## 📌 About The Project
-This repository is my personal **C# knowledge base**. It contains structured notes and implementation examples ranging from logic fundamentals to advanced software architecture. Designed to be a quick-reference guide for my development workflow.
+---
+
+## 📖 Hakkında (About)
+Bu repo, Kocaeli Üniversitesi Yazılım Mühendisliği eğitimim süresince ve kişisel gelişimimde C# programlama dili üzerine aldığım teknik notları, uygulama örneklerini ve best-practice yaklaşımları içermektedir. Sadece kod değil, mantıksal mimariyi de belgelemeyi amaçlar.
 
 ---
 
-## 🛠 Tech Stack & Environment
+## 🛠️ Technical Skill Map
 
-| Area | Tools |
+| Area | Technologies & Concepts |
 | :--- | :--- |
-| **Language** | `C# 12.0` |
-| **Frameworks** | `.NET 8`, `EF Core`, `LINQ` |
-| **Infrastructure** | `SQL Server`, `PostgreSQL` |
-| **Environment** | `Linux (Ubuntu)`, `VS Code`, `Visual Studio 2022` |
+| **Languages** | `C# (Latest)`, `T-SQL` |
+| **Frameworks** | `.NET 8.0`, `Entity Framework Core` |
+| **Techniques** | `LINQ`, `Asynchronous Programming`, `Reflection` |
+| **Patterns** | `Repository Pattern`, `Dependency Injection`, `SOLID` |
+| **Dev Tools** | `Visual Studio 2022`, `SQL Server Management Studio`, `Git` |
 
 ---
 
-## 📂 Deep Dive Into Content
+## 📂 Repository Roadmap
 
-<details>
-<summary><b>📐 Fundamentals (Click to expand)</b></summary>
-<br>
-  
-- [x] Primitive Types & Complex Logic
-- [x] Memory Management (Ref vs Value Types)
-- [x] Advanced Error Handling (Try-Catch-Finally)
-</details>
+### 🧱 Core Fundamentals
+- [x] **Syntax & Types:** Value vs Reference types, stack/heap logic.
+- [x] **Control Structures:** Advanced loops and conditional logic.
+- [x] **Exception Handling:** Custom exception management.
 
-<details>
-<summary><b>🏛 Object-Oriented Programming</b></summary>
-<br>
+### 🏛️ Object-Oriented Programming (OOP)
+- [x] **Encapsulation:** Property logic and access modifiers.
+- [x] **Inheritance & Polymorphism:** Method overriding and base-class logic.
+- [x] **Abstraction:** Interface design and abstract class implementations.
 
-- [x] **Inheritance & Polymorphism**
-- [x] **Interfaces & Abstract Classes**
-- [ ] Dependency Injection Patterns
-</details>
-
-<details>
-<summary><b>🗄 Database & Persistence</b></summary>
-<br>
-
-- [x] Entity Framework Core (Code-First)
-- [x] Complex SQL Queries & Joins
-- [ ] Repository Pattern Implementation
-</details>
+### 💾 Data & Persistence
+- [x] **Collections:** Generic lists, dictionaries, and hashsets.
+- [x] **LINQ (Language Integrated Query):** Complex data filtering and transformation.
+- [x] **Entity Framework Core:** DB-First/Code-First workflows and migrations.
 
 ---
 
-## ⚙️ Installation & Usage
+## 🚀 How to Explore?
 
-To run any module in this repository, ensure you have the **.NET SDK** installed.
+Projeleri yerel ortamınızda denemek için:
 
 ```bash
-# Clone the repository
+# Repo'yu klonlayın
 git clone [https://github.com/Aalp20/C--work-notes.git](https://github.com/Aalp20/C--work-notes.git)
 
-# Navigate to a specific project folder
-cd ProjectName
+# Proje dizinine girin
+cd C--work-notes
 
-# Restore dependencies and run
+# Bağımlılıkları yükleyin ve çalıştırın
 dotnet restore
 dotnet run
